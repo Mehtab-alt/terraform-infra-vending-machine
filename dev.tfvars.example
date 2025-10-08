@@ -1,0 +1,9 @@
+// dev.tfvars.example
+// Copy this file to dev.tfvars and fill in the values.
+
+resource_group_name = "dev-rg-vm-example"
+location            = "East US"
+tags = {
+  "environment" = "development"
+  "project"     = "terraform-vending-machine"
+}
