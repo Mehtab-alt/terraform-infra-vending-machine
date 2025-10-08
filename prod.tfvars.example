@@ -1,0 +1,9 @@
+// prod.tfvars.example
+// Copy this file to prod.tfvars and fill in the values.
+
+resource_group_name = "prod-rg-vm-example"
+location            = "West US 2"
+tags = {
+  "environment" = "production"
+  "project"     = "terraform-vending-machine"
+}
